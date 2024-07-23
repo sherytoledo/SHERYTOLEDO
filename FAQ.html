@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Preguntas Frecuentes - Empresa CORPORATION GROUP RHEMBAS S.A.C</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f0f8ff;
+            margin: 0;
+            padding: 0;
+            color: #333;
+        }
+        .container {
+            width: 80%;
+            margin: 0 auto;
+            padding: 20px;
+        }
+        h1 {
+            text-align: center;
+            color: #003366;
+        }
+        h2 {
+            color: #003366;
+            border-bottom: 2px solid #003366;
+            padding-bottom: 5px;
+        }
+        .faq {
+            margin: 20px 0;
+        }
+        .faq h3 {
+            background-color: #003366;
+            color: #fff;
+            padding: 10px;
+            border-radius: 5px;
+            cursor: pointer;
+            margin: 0;
+        }
+        .faq p {
+            background-color: #e6f2ff;
+            padding: 10px;
+            border-radius: 5px;
+            display: none;
+        }
+        .faq p.show {
+            display: block;
+        }
+    </style>
+    <script>
+        function toggleAnswer(element) {
+            var answer = element.nextElementSibling;
+            answer.classList.toggle('show');
+        }
+    </script>
+</head>
+<body>
+    <div class="container">
+        <h1>Preguntas Frecuentes</h1>
+
+        <h2>General</h2>
+        <div class="faq">
+            <h3 onclick="toggleAnswer(this)">¿Qué servicios ofrece su empresa?</h3>
+            <p>Ofrecemos servicios de construcción residencial, comercial e industrial, incluyendo diseño, planificación, gestión de proyectos, remodelaciones y construcciones nuevas.</p>
+        </div>
+        <div class="faq">
+            <h3 onclick="toggleAnswer(this)">¿Dónde están ubicados y en qué áreas trabajan?</h3>
+            <p>Nuestra sede está en Moquegua y trabajamos en nuestra oficina.</p>
+        </div>
+        <div class="faq">
+            <h3 onclick="toggleAnswer(this)">¿Cuánto tiempo llevan en el negocio?</h3>
+            <p>Llevamos 8 años en la industria de la construcción, con una sólida trayectoria en proyectos exitosos.</p>
+        </div>
+
+        <h2>Proyecto</h2>
+        <div class="faq">
+            <h3 onclick="toggleAnswer(this)">¿Cómo se inicia un proyecto con su empresa?</h3>
+            <p>Comenzamos con una consulta inicial para entender sus necesidades y expectativas. Luego, desarrollamos un plan y presupuesto detallado.</p>
+        </div>
+        <div class="faq">
+            <h3 onclick="toggleAnswer(this)">¿Cuál es el proceso de planificación y diseño?</h3>
+            <p>Nuestro equipo de arquitectos y diseñadores trabajará con usted para crear un plan que cumpla con sus requisitos y se ajuste a su presupuesto.</p>
+        </div>
+        <div class="faq">
+            <h3 onclick="toggleAnswer(this)">¿Cuánto tiempo llevará completar mi proyecto?</h3>
+            <p>La duración del proyecto depende de su tamaño y complejidad. Proporcionamos un cronograma detallado una vez que el plan esté finalizado.</p>
+        </div>
+
+        <h2>Presupuesto y Pagos</h2>
+        <div class="faq">
+            <h3 onclick="toggleAnswer(this)">¿Cómo se determina el costo de un proyecto?</h3>
+            <p>Los costos se basan en varios factores, incluyendo el tamaño del proyecto, los materiales utilizados y la mano de obra necesaria. Proporcionamos presupuestos detallados después de la evaluación inicial.</p>
+        </div>
+        <div class="faq">
+            <h3 onclick="toggleAnswer(this)">¿Ofrecen financiamiento o planes de pago?</h3>
+            <p>Sí, ofrecemos opciones de financiamiento y planes de pago flexibles para facilitar la inversión en su proyecto.</p>
+        </div>
+        <div class="faq">
+            <h3 onclick="toggleAnswer(this)">¿Hay costos ocultos?</h3>
+            <p>No, nos esforzamos por proporcionar estimaciones precisas y transparentes para evitar sorpresas. Cualquier cambio en el presupuesto será discutido y aprobado previamente.</p>
+        </div>
+
+        <h2>Calidad y Seguridad</h2>
+        <div class="faq">
+            <h3 onclick="toggleAnswer(this)">¿Están licenciados y asegurados?</h3>
+            <p>Sí, contamos con todas las licencias y seguros necesarios para operar legalmente y proteger tanto a nuestro equipo como a nuestros clientes.</p>
+        </div>
+        <div class="faq">
+            <h3 onclick="toggleAnswer(this)">¿Cómo garantizan la calidad del trabajo?</h3>
+            <p>Utilizamos materiales de alta calidad y empleamos a profesionales experimentados. Además, realizamos inspecciones regulares para asegurar que el trabajo cumpla con nuestros altos estándares.</p>
+        </div>
+        <div class="faq">
+            <h3 onclick="toggleAnswer(this)">¿Qué medidas de seguridad implementan en sus proyectos?</h3>
+            <p>Seguimos estrictos protocolos de seguridad y cumplimos con todas las normativas locales y nacionales para garantizar un entorno de trabajo seguro.</p>
+        </div>
+
+        <h2>Comunicación y Seguimiento</h2>
+        <div class="faq">
+            <h3 onclick="toggleAnswer(this)">¿Cómo se maneja la comunicación durante el proyecto?</h3>
+            <p>Asignamos un gerente de proyecto dedicado que será su punto de contacto principal. Además, proporcionamos actualizaciones regulares sobre el progreso del proyecto.</p>
+        </div>
+        <div class="faq">
+            <h3 onclick="toggleAnswer(this)">¿Qué pasa si quiero hacer cambios durante el proyecto?</h3>
+            <p>Entendemos que pueden surgir cambios. Trabajaremos con usted para evaluar las implicaciones de tiempo y costo, y ajustaremos el plan en consecuencia.</p>
+        </div>
+        <div class="faq">
+            <h3 onclick="toggleAnswer(this)">¿Ofrecen garantías para su trabajo?</h3>
+            <p>Sí, ofrecemos garantías que cubren defectos de construcción y otros problemas que puedan surgir después de la finalización del proyecto.</p>
+        </div>
+
+        <h2>Post-Proyecto</h2>
+        <div class="faq">
+            <h3 onclick="toggleAnswer(this)">¿Brindan servicios de mantenimiento después de la construcción?</h3>
+            <p>Sí, ofrecemos servicios de mantenimiento y soporte continuo para asegurar que su propiedad se mantenga en excelentes condiciones.</p>
+        </div>
+        <div class="faq">
+            <h3 onclick="toggleAnswer(this)">¿Cómo manejo posibles problemas después de la finalización del proyecto?</h3>
+            <p>Puede contactarnos en cualquier momento si surge algún problema. Nos comprometemos a resolver cualquier inconveniente de manera rápida y eficiente.</p>
+        </div>
+
+        <h2>Personalización y Opciones</h2>
+        <div class="faq">
+            <h3 onclick="toggleAnswer(this)">¿Puedo personalizar mi proyecto?</h3>
+            <p>Absolutamente. Trabajamos estrechamente con nuestros clientes para asegurar que cada proyecto refleje sus gustos y necesidades personales.</p>
+        </div>
+        <div class="faq">
+            <h3 onclick="toggleAnswer(this)">¿Ofrecen servicios de diseño sostenible o ecológico?</h3>
+            <p>Sí, estamos comprometidos con prácticas de construcción sostenibles y podemos integrar soluciones ecológicas en su proyecto.</p>
+        </div>
+
+        <h2>Contacto y Visitas</h2>
+        <div class="faq">
+            <h3 onclick="toggleAnswer(this)">¿Puedo visitar proyectos anteriores para ver su trabajo?</h3>
+            <p>Sí, podemos organizar visitas a proyectos anteriores para que pueda ver de primera mano la calidad de nuestro trabajo.</p>
+        </div>
+        <div class="faq">
+            <h3 onclick="toggleAnswer(this)">¿Cómo puedo contactarles para más información?</h3>
+            <p>Puede llamarnos al [número de teléfono], enviarnos un correo electrónico a [dirección de correo electrónico], o visitar nuestra oficina en [dirección].</p>
+        </div>
+    </div>
+</body>
+</html>
